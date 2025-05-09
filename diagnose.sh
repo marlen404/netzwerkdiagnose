@@ -5,7 +5,7 @@
 
 # unter MSYS2/MinGW4 auf Windows
 
-LOG_FILE="network_diagnose_$(date +%F_%H%M).log"
+LOG_FILE="netzwerk_diagnose_$(date +%F_%H%M).log"
 
 # Zielhost - erstes Argument oder 8.8.8.8 Standard
 TARGET_HOST=${1:-8.8.8.8}
