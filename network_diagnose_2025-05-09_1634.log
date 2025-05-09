@@ -1,0 +1,26 @@
+Starting Network Diagnosis for host: 8.8.8.8
+----
+Ping Test:
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=22ms TTL=119
+Reply from 8.8.8.8: bytes=32 time=21ms TTL=119
+Reply from 8.8.8.8: bytes=32 time=20ms TTL=119
+Reply from 8.8.8.8: bytes=32 time=20ms TTL=119
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 20ms, Maximum = 22ms, Average = 20ms
+Ping successful
+
+DNS Lookup (google.com):
+Server:  fritz.box
+Address:  fd63:8fd6:efa3:0:52e6:36ff:fe32:dd4
+
+Name:    google.com
+Addresses:  2a00:1450:4001:80b::200e
+	  142.250.185.142
+
+DNS Lookup successful
+
