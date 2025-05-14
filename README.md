@@ -8,7 +8,7 @@ Ein kleines, modulares Bash-Skript zur Durchführung einer Netzwerkdiagnose. Die
 - Ausgabe lokaler Hostname
 ### Ausführen unter MSYS2/MinGW64
 ```bash
-bash diagnose.sh
+bash main.sh
 ```
 #### Hinweis
 Logdateien sind per .gitignore ausgeschlossen.
