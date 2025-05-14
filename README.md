@@ -1,6 +1,11 @@
 # Test Projekt: Netzwerkdiagnose
-Kleines Bash Skript, das einen Ping Test und eine DNS Aufösung durchführt.
-Ausgabe wird in Logdatei geschrieben. Optimial für Windows unter MSYS2.
+Ein kleines, modulares Bash-Skript zur Durchführung einer Netzwerkdiagnose. Die Ergebnisse werden in eine Logdatei mit Zeitstempel geschrieben. Optimiert für **Windows unter MSYS2/MinGW64**
+#### Netzwerkfunktionen
+- Ping
+- DNS-Auflösung
+- IP-Konfiguration
+- Traceroute
+- Ausgabe lokaler Hostname
 ### Ausführen unter MSYS2/MinGW64
 ```bash
 bash diagnose.sh
